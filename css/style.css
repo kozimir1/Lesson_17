@@ -661,7 +661,7 @@ body {
 .body-inpact {
 }
 .body-inpact__content {
-	flex: 0 1 50%;
+	flex: 1 1 25%;
 	padding: 0px 12px;
 }
 .body-inpact__titles {
@@ -708,6 +708,7 @@ body {
 	max-height: 76px;
 }
 .inpact-item__content {
+	align-self: center;
 }
 .inpact-item__name {
 	color: #c40b0b;
@@ -759,6 +760,14 @@ body {
 	}
 	.body-inpact__titles *:not(:last-child) {
 		margin: 0px 0px 20px 0px;
+	}
+	.inpact-item__name {
+		font-size: 26px;
+	}
+}
+@media (max-width: 376px) {
+	.inpact-item__name {
+		font-size: 36px;
 	}
 }
 /* --------.inpact__footer--------------------- */
